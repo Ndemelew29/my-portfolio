@@ -342,7 +342,7 @@ p.content-text { font-size:20px; }
     align-items: center;
     flex-flow: wrap;
     list-style: none;
-    padding: 0 50px;
+    padding: 0 100px;
    
 }
 
@@ -374,9 +374,9 @@ p.content-text { font-size:20px; }
     border-top-right-radius: 8px;
 }
    
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 768px) {
        .portfolio ul {
-        padding: 0 200px;
+/*        padding: 0 50px;*/
     }
 }
 
