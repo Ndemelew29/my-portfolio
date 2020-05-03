@@ -27,7 +27,7 @@ ul.navbar-nav li
 {
   color:black!important;
   font-size: 1.3em;
-  font-family: Century gothic,sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight:600;
   transition: 0.4s ease;
 }
@@ -157,7 +157,7 @@ margin-right:5%;
 .splash .lead {
   font-size:14px;
   margin-bottom: 1em;
-  font-family: Rockwell;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 @keyframes blink
   {
@@ -267,7 +267,7 @@ hr.star-light:after,hr.star-portfolio:after {
     position: relative;
     top: -.8em;
     padding: 0 .25em;
-    font-family: FontAwesome;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:1.5em;
 }
 hr.star-light:after,hr.star-skill:after {
@@ -277,7 +277,7 @@ hr.star-light:after,hr.star-skill:after {
     top: -.8em;
     padding: 0 .25em;
     margin-bottom: 10px;
-    font-family: FontAwesome;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:2em;
 }
 
@@ -317,7 +317,7 @@ p.content-text { font-size:20px; }
 }
 
 .about2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     column-count:2;
     column-gap:40px;
     column-rule-style:solid;
@@ -367,6 +367,7 @@ p.content-text { font-size:20px; }
 
 .portfolio ul li:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0 ,0.24);
+    transition: 0.7s
     
 }
 .portfolio ul li img {
@@ -425,7 +426,7 @@ div {
 
 p,
 li {
-  font-family: 'Cormorant Garamond';
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .head {
@@ -433,7 +434,7 @@ li {
 }
 
 #name {
-  font-family: Sacramento;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   float:left;
 }
 
