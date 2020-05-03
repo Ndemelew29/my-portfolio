@@ -20,17 +20,6 @@ ul.navbar-nav li
 {
   padding: 0 10px;
 }
-/
-@media only screen and (max-width:767px)
-{ ul.navbar-nav { float:none; } }
-.container-fluid {
-  padding: 0 1.5em;
-}
-@media only screen and (min-width:768px){ 
-    .navbar-toggle:hover > ul { 
-      display: block;
-    } 
-}
 
 .navbar-nav li a
 {
@@ -70,9 +59,9 @@ a.navbar-brand .fa-blog:hover
   max-width: 996px;
 }
 .splash {
-  background:url() no-repeat fixed center bottom;
-	background-size: cover;
-	color: #fff;
+background:url(/midterm_project/img/myback2.jpg) no-repeat fixed center bottom;
+background-size: cover;
+color: #fff;
 }
 
 .splash .container {
@@ -123,8 +112,10 @@ h1.text-center
  margin-top:20px;
 
 }
-p{
-
+.front{
+text-align: center;
+font-size: 1em;
+color: #333333;
 }
 p.intro-text{
 color: #333;
@@ -151,15 +142,15 @@ height:100px;
 border: 3px solid blue;
 }
 .img1{
-    margin-top:5px;
-    margin-bottom:60px;
-
-    
+margin-top:5px;
+margin-bottom:60px;   
 }
 
 .name {
-    color: #000;
-    font-size:3em;
+color: #333333;
+font-size:2em;
+margin-left: 5%;
+margin-right:5%;
 }
 .splash .lead {
   font-size:14px;
@@ -233,7 +224,7 @@ border: 3px solid blue;
   padding-top:4em!important;
 }
 .me{
-    font-size:1.5em;
+    font-size:1em;
 }
 section h2 {
     margin: 0;
@@ -318,9 +309,77 @@ hr.star-light:after {
 p.content-text { font-size:20px; }
 
 
+.first_page{
+    color:#333333;
+    text-align: center;
+}
+
+.about2{
+    font-family: Arial, Helvetica, sans-serif;
+    column-count:2;
+    column-gap:40px;
+    column-rule-style:solid;
+    column-rule-width:1px;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:40px;  
+}
+.content{
+    font-size:1em;
+    color: #333333;
+    margin-left:5%;
+    margin-right:5%;   
+}
 
 /* Portfolio Section */
+.portfolio{
+    margin-top: 40px;
+}
 
+.portfolio ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap;
+    list-style: none;
+    padding: 0 50px;
+   
+}
+
+.portfolio ul li {
+    width: 200px;
+    height: 400px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    
+}
+ .portfolio-content {
+    padding: 10px 20px;
+}
+
+ .portfolio-content p{
+    margin-top: 10px;
+     font-size: 0.8em;
+}
+
+.portfolio ul li:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0 ,0.24);
+    
+}
+.portfolio ul li img {
+    width: 200px;
+    height: 250px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+   
+@media screen and (max-width: 912px) {
+       .portfolio ul {
+        padding: 0 200px;
+    }
+}
+
+/*
 .portfolio-card{
   box-shadow: 0px 2px 5px #888888;
    background: #ffffff;
@@ -347,13 +406,13 @@ align-items: center;
     
 }
 .pro{
-    
+    font-size: 1em;
     margin-left:10%;
     margin-right:10%;
 }
 .list{
   margin-left:15%;  
-  margin-bottom: 10px;
+  margin-bottom:10px;
 
     
 }
@@ -399,9 +458,6 @@ align-items: center;
     width:200px;
 }
 
-
-
-
 .portfolio-img-desc{
 	position: relative;
 	bottom:0px;
@@ -412,26 +468,82 @@ align-items: center;
 	text-align: center;
 
 }
+*/
 
-/*Post SEction*/
-
-.post{
-    font-family: Arial, Helvetica, sans-serif;
-    column-count: 3;
-    column-gap:40px;
-    column-rule-style:solid;
-    column-rule-width:1px;
-    margin-left:5%;
-    margin-right:5%;
-    margin-top:40px;  
-}
-.content{
-    font-size:1em;
-    color: #333333;
-    margin-left: 5%;
-    margin-right: 5%;   
+/*Resume Section*/
+div {
+  border-radius:5px;
 }
 
+#header {
+  height:30px;
+  width: 100%;
+ text-align: center;
+  z-index: 1;
+}
+
+
+.left {
+  height:1000px;
+  width:45px;
+  float: left;
+  position: fixed;
+}
+
+.right {
+  height:1000px;
+  width: 45px;
+  float: right;
+  position: inherit;
+}
+.right1{
+    float: right;
+    padding-left:10%;
+    
+}
+
+.docum {
+  display: inline-block;
+  margin-top:6px;
+  margin-left: 55px;
+  width: 75%;
+  height:1000px;
+}
+
+p,
+li {
+  font-family: 'Cormorant Garamond';
+}
+
+.head {
+  font-size: 20px;
+}
+
+#name {
+  font-family: Sacramento;
+  float:left;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+.resu{
+    margin-left:10%;
+}
+
+/*
+@media only screen and (max-width: 430px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .docum {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+*/
 
 /* Skills Section */
 
@@ -450,10 +562,13 @@ align-items: center;
 
 }
 
-  .fa-html5, .fa-css3-alt, .fa-js-square, .fa-wordpress{
-    font-size: 64px;
-    
+
+.fa-html5, .fa-css3-alt, .fa-js-square, .fa-wordpress{
+    font-size: 64px;}
+.text-center{
+
 }
+
 
 .skill-card:hover{
 	box-shadow: 0px 10px 10px #888888;
@@ -486,10 +601,7 @@ align-items: center;
 	padding: 5px;
 }
 
-/* Blog Section*/
-
-
-/* Contact Section */
+/* ------ Contact Section -------*/
 
 .contact-me-container{
 padding:3%;
@@ -501,9 +613,13 @@ background-color: #5c85d6;
   color:black;
 }
 .submit-button{
-	margin-top: 10px;
+	margin-top: 5px;
 	margin-bottom: 10px;
+    
 }
+
+
+
 /* ========================
 Footer Section
 ======================== */
@@ -521,18 +637,18 @@ a.tel,a.tel:hover
   color:#fff;
 }
 a.social-button {
-	background: #fff;
-	font-size:20px;
-	border-radius:50%;
-	margin:5px;
+background: #fff;
+font-size:20px;
+border-radius:50%;
+margin:5px;
 }
 .address-container{
-	display: inline-block;
-	margin: 0 auto;
+display: inline-block;
+margin: 0 auto;
 }
 a.link-facebook,a.link-twitter,a.link-linkedin,a.link-instagram
 {
-  transition:0.4s ease;
+transition:0.4s ease;
 }
 a.link-twitter
 {
@@ -551,8 +667,8 @@ a.link-instagram
   color:#5c85d6;
 }
 a.link-facebook:hover{
-	background-color:#5c85d6;
-	color: #fff;
+background-color:#5c85d6;
+color: #fff;
 }
 
 a.link-twitter:hover{
@@ -578,7 +694,6 @@ a.link-instagram:hover{
     background-color: #fff;
     border-color: transparent!important;
 }
-
 a:hover {
    text-decoration:none !important; 
 }
@@ -606,3 +721,4 @@ hr.copyright
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
     background-color: #fff !important;
 }
+
