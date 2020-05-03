@@ -3,7 +3,9 @@
 }
 /* [ON THE BIG SCREEN] */
 /* HAMBURGER ICON */
-
+body{
+    overflow-x: hidden;
+}
 #menu
 {
   background-color:#ffffff;
