@@ -351,6 +351,7 @@ p.content-text { font-size:20px; }
     height: 400px;
     background-color: #f4f4f4;
     border-radius: 8px;
+    margin-top: 20px;
     
 }
  .portfolio-content {
@@ -379,96 +380,6 @@ p.content-text { font-size:20px; }
     }
 }
 
-/*
-.portfolio-card{
-  box-shadow: 0px 2px 5px #888888;
-   background: #ffffff;
-
-    height: 200px;
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    
-align-items: center;
-
-    flex-direction: column;
-   margin-left:30%;
-
-    
-
-}
-.text{
-    width:200px;
-    font-size:0.8em;
-    text-align: center;
-    color:#5c85d6;
-    
-    
-}
-.pro{
-    font-size: 1em;
-    margin-left:10%;
-    margin-right:10%;
-}
-.list{
-  margin-left:15%;  
-  margin-bottom:10px;
-
-    
-}
-
-.portfolio-card:hover{
-	box-shadow: 0px 10px 10px #888888;
-  cursor: pointer
-}
-
-.portfolio-container-holder{
-	background: 
-	padding-bottom: 20px;
-}
-
-
-.portfolio-card-holder{
-	padding:20px;
-	margin-bottom:10px;
-}
-.portfolio-img{
-	width: 100%;
-	border-radius: 4px 4px 0 0;
-}
-.ui_1 {
-
-    height:200px;
-    width:200px;
-
-}
-.recipe {
-    
-    height:200px;
-    width:200px;
-   
-}
-.vic {
-    
-     height:200px;
-    width:200px;
-}
-.bilt {
-    height:200px;
-    width:200px;
-}
-
-.portfolio-img-desc{
-	position: relative;
-	bottom:0px;
-	left: 0px;
-	right: 0px;
-	background: #fff;
-	color: #000;
-	text-align: center;
-
-}
-*/
 
 /*Resume Section*/
 div {
