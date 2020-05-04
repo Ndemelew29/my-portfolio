@@ -635,4 +635,13 @@ hr.copyright
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
     background-color: #fff !important;
 }
-
+.resume{
+margin-top: 20px;
+font-size: 20px;
+    
+}
+.blog{
+list-style: none;
+margin-top:20px;
+font-size: 20px;
+}
